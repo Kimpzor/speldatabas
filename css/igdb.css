@@ -1,0 +1,68 @@
+/* Set width, min-width, backgroundcolor and clears an area around an element (outside the border) */
+#wrapper {
+	width: 60%;
+	margin: auto;
+	min-width: 850px;
+	background-color: #FFFFFF;
+}
+
+/* set min-height and clears an area around an element (inside the border) */
+#content {
+	padding: 5px;
+	min-height: 500px;
+}
+
+/* set backgroundcolor, height and clears top & left area around an element (inside the border) */
+header {
+	background-color: #3a3a3a;
+	height: 80px;
+	padding-top: 15px;
+	padding-left: 10px;
+}
+
+/* placerar texten på footern i mitten */
+footer { 
+	text-align: center; 
+}
+
+/* placerar texten i mitten */
+h1 {
+	text-align: center;
+
+}
+
+/* clears top area around an element (outside the border) */
+#menu {
+	margin-top: 50px;
+}
+
+/* Döljer adressfältet för att undvika robotar */
+#adress {    
+	display: none;
+}
+
+/* textfärg på klasserna span3 */
+.span3 {
+	color: #FFFFFF;
+}
+
+/* maxstorlek på bilder */
+.img_max {
+	max-height: 600px;
+	max-width: 800px;
+	min-height: 250px;
+	min-width: 250px;
+}
+
+/* minimumstorlek på bilderna */
+.img_small {
+	width: 150px;
+	height: 150px;
+}
+
+/* placering och clears top area around an element (inside the border) */
+.sort {
+	float: left;
+	padding: 10px;
+}
+
